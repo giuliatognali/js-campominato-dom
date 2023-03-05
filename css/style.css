@@ -1,0 +1,94 @@
+/************
+Reset
+*************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer{
+    padding: 1.25rem;
+}
+/* 
+Main
+*/
+main{
+    background-color:#7fffd4;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.board{
+    height: 37.5rem;
+    width:  37.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.cell{
+    outline: 1px solid black;
+    background-color:#7fffd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+.blue{
+    outline: 1px solid black;
+    background-color: cornflowerblue;
+}
+
+
+/* 
+Header
+ */
+
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+.logo{
+    display: flex;
+    align-items: center; 
+}
+img{
+    height: 50px;
+}
+header h1{
+    margin-left: 15px;
+
+}
+.option-btn{
+    display: flex;
+    
+}
+
+button{
+    padding: 0 25px;
+}
+select{
+    padding-right: 2.5rem;
+    margin: 0 5px;
+}
+
+/* 
+Footer
+ */
+ i{
+    font-size: 12px;
+ }
